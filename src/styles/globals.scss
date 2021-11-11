@@ -4,4 +4,37 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --primary: #FF57B2;
+  --gray-100: #F8F8F8;
+  --gray-200: #D7D7D7;
+  --gray-300: #BBBBBB;
+  --gray-900: #282c34d4;
+
+  --content-width: 700px;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 1080px) {
+    font-size: 58.5938%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 54.6875%;
+  }
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-200);
+}
+
+body, input, textarea, select, button {
+  font: 1.6rem 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--gray-100);
+}
