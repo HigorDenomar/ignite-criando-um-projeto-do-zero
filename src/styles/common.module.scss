@@ -1,1 +1,6 @@
-// TODO
+.content {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
